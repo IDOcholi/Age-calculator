@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div class="inputs">
+
+        <div class="day-input">
+          <label for="day" id="day-label">Day</label>
+					<input type="number" name="day" id="day" placeholder="DD">
+					<span class="error-day"></span>
+        </div>
+
+        <div class="month-input">
+          <label for="month" id="month-label">Month</label>
+					<input type="number" name="month" id="month" placeholder="MM">
+					<span class="error-month"></span>
+        </div>
+
+        <div class="year-input">
+          <label for="year" id="year-label">Year</label>
+					<input type="number" name="year" id="year" placeholder="YYYY">
+					<span class="error-year"></span>
+        </div>
+      </div>
+
+      <div class="middle">
+        <div class="line"></div>
+
+        <button title="submit" id="Btn" class="button">
+          <img src="./assets/images/icon-arrow.svg" alt="submit arrow icon">
+        </button>
+      </div>
+
+      <div class="result_container">
+
+        <div class="result">
+          <span id="years-result">--</span>
+					<i>years</i>
+        </div>
+
+        <div class="result">
+          <span id="months-result">--</span>
+					<i>months</i>
+        </div>
+
+        <div class="result">
+          <span id="days-result">--</span>
+					<i>days</i>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://www.github.com/IDOcholi">Ocholi Daniel Inalegwu</a>.
+    </div>
+  </footer>
+<script src="script.js"></script>
+
+</body>
+</html>
