@@ -202,39 +202,52 @@ footer{
 @media only screen and (max-width: 600px) {
 	.container {
 		padding: 2em;
-		margin-top: 10px;
-
 	}
 
 	.inputs {
 		column-gap: 1em;
         width: 100%;
 	}
+	
 	input[type='number'] {
 		font-size: 0.6em;
 	}
+	
 	.day-input,
 	.month-input,
 	.year-input{
 		min-width: 3.5em;
 	}
+	
 	.error-day,
 	.error-month,
 	.error-year {
 		font-size: 0.6sem;
 	}
+	
 	.line {
 		margin: 2em 0 4em 0;
 	}
+	
 	.button {
 		height: 4em;
 		width: 4em;
 		top: -2em;
 		right: calc(50% - 2em);
+		background-color: var(--Purple);
 	}
+	
 	.result {
 		font-size: 1em;
+		color: var(--Purple);
 	}
+
+	i{
+		color: black;
+	    }
+
+	. attribution {
+		font-size: 0.8em
 }
 
 
