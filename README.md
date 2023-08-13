@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot](screenshot.PNG?raw=true "screenshot data title")
+![screenshot](screenshot.png?raw=true "screenshot data title")
 
 
 
